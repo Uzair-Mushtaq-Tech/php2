@@ -1,0 +1,7 @@
+<?php
+$number = 2;
+do{
+    echo $number;
+    $number += 2;
+}while($number <= 20);
+?>
