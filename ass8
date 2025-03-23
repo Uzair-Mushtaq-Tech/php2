@@ -1,0 +1,12 @@
+<?php
+$arr = [15, 22, 33, 40, 11];
+$largest = $arr[0];
+
+foreach ($arr as $value) {
+    if ($value > $largest) {
+        $largest = $value;
+    }
+}
+
+echo $largest;
+?>
